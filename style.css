@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 40%;
+}
+
+#photo-footer {
+    position: absolute;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    top: 1050px;
+    left: 200px;
+}
+
+#odin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40%;
+    height: 250px;
+    left: 0;
+    top: 270px;
+    background-color: rgb(0, 0, 0, 50%);
+}
+
+#odin-image {
+    width: 20%;
+    height: 80%;
+}
+
+#odin-header {
+    color: white;
+    font-size: 120px;
+    font-family: Norse;
+}
+
+.photographer {
+    color: white;
+}
+
+#emphasis {
+    font-style: italic;
+}
+
+#field-header {
+    border: none;
+    font-size: 36px;
+    background-color: rgb(200, 200, 200, 30%);
+    height: 360px;
+}
+
+#info {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 60px;
+    box-shadow: 0 5px 7px lightgray;
+    font-size: 36px;
+}
+
+#info-text {
+    margin-left: 24px;
+    font-family: sans-serif;
+}
+
+label {
+    letter-spacing: 2px;
+}
+
+#inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: sans-serif;
+    gap: 60px;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.info-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-text {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.push {
+    font-weight: bold;
+}
+
+#first-name:focus {
+    border: 1px solid blue;
+    box-shadow: 0 2px 10px rgb(0, 0, 255);
+}
+
+#last-name:focus {
+    border: 1px solid blue;
+    box-shadow: 0 2px 10px rgb(0, 0, 255);
+}
+
+#email:focus {
+    border: 1px solid blue;
+    box-shadow: 0 2px 10px rgb(0, 0, 255);
+}
+
+#phone:focus {
+    border: 1px solid blue;
+    box-shadow: 0 2px 10px rgb(0, 0, 255);
+}
+
+#password:focus {
+    border: 1px solid blue;
+    box-shadow: 0 2px 10px rgb(0, 0, 255);
+}
+
+#con-password:focus {
+    border: 1px solid blue;
+    box-shadow: 0 2px 10px rgb(0, 0, 255);
+}
+
+#email:invalid {
+    border: 1px solid red;
+}
+
+#phone:invalid {
+    border: 1px solid red;
+}
+
+#password:invalid {
+    border: 1px solid red;
+}
+
+#con-password:invalid {
+    border: 1px solid red;
+}
+
+#mismatch {
+    color: red;
+}
+
+button{
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 24px;
+    padding: 20px 72px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #596D48;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#login {
+    margin-left: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#login-link {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
+
+#login-link:hover {
+    color: orange;
+}
